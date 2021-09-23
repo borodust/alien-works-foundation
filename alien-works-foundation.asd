@@ -16,7 +16,9 @@
               ((:linux :x86-64) "libskia.so" "x86_64-pc-linux-gnu/")
               ((:linux :x86-64) "libskia.clawed.so" "x86_64-pc-linux-gnu/")
               ((:linux :x86-64) "libimgui.clawed.so" "x86_64-pc-linux-gnu/")
-              ((:linux :x86-64) "libopenal.so" "x86_64-pc-linux-gnu/")))
+              ((:linux :x86-64) "libopenal.so" "x86_64-pc-linux-gnu/")
+              ((:linux :x86-64) "libchipmunk.so.7" "x86_64-pc-linux-gnu/")
+              ((:linux :x86-64) "libchipmunk.clawed.so" "x86_64-pc-linux-gnu/")))
 
 
 (asdf:defsystem :alien-works-foundation/tools
